@@ -1,0 +1,73 @@
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-decoration-color: blue;
+
+  
+}
+.Choose-Meal{
+  padding:0.6rem;
+  background-color: rgb(95, 20, 106);
+  border:none;
+  color:white;
+  border-radius: 0.4rem;
+  margin-left: 0.2rem;
+}
+.Choose-diet{
+  padding:0.6rem;
+  background-color: rgb(95, 20, 106);
+  border:none;
+  color:white;
+  border-radius: 0.4rem;
+  margin-left: 0.2rem;
+}
+
+.submit_btn{
+  padding:0.6rem;
+  background-color:rgb(95, 20, 106);
+  border:none;
+  color:white;
+  border-radius: 0.4rem;
+  margin-left: 0.2rem;
+}
+
+.search_field{
+  padding:0.5rem;
+}
+
+.card-container{
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+}
+
+.card{
+  width:18rem;
+  box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding:2rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width:450px) {
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-container{
+  display: grid;
+  grid-template-columns: auto;
+  gap: 2rem;
+ }
+
+ .card{
+  width:9rem;
+ }
+ .card-img-top{
+  width:9rem;
+ }
+}
